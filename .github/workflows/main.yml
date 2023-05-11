@@ -1,4 +1,4 @@
-name: Run passing test
+name: Run failing test
 
 on: [push]
 
@@ -14,4 +14,4 @@ jobs:
       with:
         ruby-version: 3.0
     - name: Run test
-      run: ruby hello_test.rb
+      run: ruby goodbye_test.rb
